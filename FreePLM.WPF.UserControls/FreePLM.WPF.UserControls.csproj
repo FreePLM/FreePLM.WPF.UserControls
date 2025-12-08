@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <LangVersion>14</LangVersion>
+    <OutputType>library</OutputType>
+    <UseWPF>true</UseWPF>
+    <PackageId>FreePLM.WPF.UserControls</PackageId>
+    <Version>10.0.0</Version>
+    <Authors>FreePLM</Authors>
+    <Company>FreePLM</Company>
+    <PackageDescription>FreePLM WPF User Controls - Reusable WPF user controls for FreePLM applications</PackageDescription>
+    <RepositoryUrl>https://github.com/FreePLM/FreePLM.WPF.UserControls</RepositoryUrl>
+    <IsPackable>true</IsPackable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FreePLM.WPF.Core" Version="10.0.0" />
+  </ItemGroup>
+
+</Project>
